@@ -1,4 +1,4 @@
-FROM docker:26.1.1-dind-alpine3.19
+FROM docker:27.3.1-dind-alpine3.20
 
 # Install dependencies
 RUN apk add --no-cache \
